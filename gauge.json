@@ -2,31 +2,31 @@
 	"id": "com.demo.gauge",
 	"version": "1.0.0",
 	"name": "Emission Gauge",
-	"description": "An emission gauge",
+	"description": "Emission gauge",
 	"newInstancePrefix": "Gauge",
-	"icon": "https://example.demo/box/icon.png",
-	"vendor": "Demo",
+	"icon": " ",
+	"vendor": " ",
 	"eula": "EULA",
 	"license": "1.0",
 	"webcomponents": [
 		{
 			"kind": "main",
 			"tag": "com-demo-gauge",
-			"url": "https://example.demo/box/box.js",
+			"url": "https://github.com/TestSAP/gauge/blob/main/box.js",
 			"integrity": "",
 			"ignoreIntegrity": true
 		},
 		{
 			"kind": "styling",
 			"tag": "com-demo-gauge-sps",
-			"url": "https://example.demo/box/box_sps.js",
+			"url": "https://github.com/TestSAP/gauge/blob/main/box_sps.js",
 			"integrity": "",
 			"ignoreIntegrity": true
 		},
 		{
 			"kind": "builder",
 			"tag": "com-demo-box-bps",
-			"url": "https://example.demo/box/box_bps.js",
+			"url": "https://github.com/TestSAP/gauge/blob/main/box_bps.js",
 			"integrity": "",
 			"ignoreIntegrity": true
 		}
@@ -34,18 +34,18 @@
 	"properties": {
 		"value": {
 			"type": "number",
-			"description": "Emission Gauge value",
-			"default": "0"
+			"description": "Gauge value",
+			"default": 0
 		},
 		"info": {
 			"type": "string",
-			"description": "Actual Emission",
+			"description": "Gauge info",
 			"default": ""
 		},
 		"color": {
 			"type": "string",
 			"description": "Text Color info",
-			"default": "#f1af61"
+			"default": "#3498db"
 		},
 		"width": {
 			"type": "integer",
