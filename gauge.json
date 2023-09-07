@@ -34,12 +34,12 @@
 	"properties": {
 		"value": {
 			"type": "number",
-			"description": "Gauge value",
+			"description": "Emission Gauge value",
 			"default": "0"
 		},
 		"info": {
 			"type": "string",
-			"description": "Gauge info",
+			"description": "Actual Emission",
 			"default": ""
 		},
 		"color": {
